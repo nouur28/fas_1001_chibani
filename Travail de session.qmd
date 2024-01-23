@@ -35,3 +35,49 @@ The `echo: false` option disables the printing of code (only output is displayed
 ## Résultats 
 
 # Conclusion
+
+![](images/log.tp1 (1).png)
+
+![](images/log.tp1 (2).png)
+
+![](images/logt.tp1 (3).png)
+
+Voici une explication pour chaque commande Git utilisée :
+
+1.  on a d'abord forké le fichier fas_1001 et on lui a changé le nom.
+
+2.  **`git clone`**
+
+    Clone le dépôt distant depuis GitHub vers mon répertoire local.
+
+3.  **`git branch fas_1001_chibani`**
+
+    Crée une nouvelle branche nommée "fas_1001_chibani".
+
+4.  **`git checkout fas_1001_chibani`**
+
+    Change de branche pour "fas_1001_chibani".
+
+5.  **`git add fas_1001_chibani`**
+
+    Ajoute les modifications dans le répertoire "fas_1001_chibani".
+
+6.  **`git commit -m "Premier commit"`**
+
+    Enregistre les modifications dans la branche actuelle avec un message de commit spécifique.
+
+7.  **`git log`**
+
+    Affiche l'historique des commits dans la branche.
+
+8.  **`git add .`**
+
+    Ajoute toutes les modifications (dans le répertoire actuel).
+
+9.  **`git commit -m "Création du document du travail de session"`**
+
+    Enregistre les modifications avec un message de commit spécifique.
+
+10. **`git log`**
+
+    Affiche l'historique des commits mis à jour après le dernier commit.
